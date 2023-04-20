@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<title>Arithmetic Operators</title>
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	</head>
+	<div class="container" style="font-size:4em;">
+<body style="background-color:blue;">
+	<h1 style="font-family:Arial;color:white;"><span style="background-color:limegreen;">Arithmetic Calculator</span></h1>
+	<p><mark style="background-color:yellow;">a = 10, b = 5;</mark></p>
+	<ol type="1.">
+
+	<li>a + b = <strong id="p1"></strong></li>
+	<li>b - a = <strong id="p2"></strong></li>
+	<li>a * b = <strong id="p3"></strong></li>
+	<li>b / a = <strong id="p4"></strong></li>
+	<li>a % 2 = <strong id="p5"></strong></li>
+
+    </ol>
+
+    <script>
+
+    	let a=10, b=5;
+
+    	let sum = a + b;
+    	let diff = b - a;
+    	let prod = a * b;
+    	let quot = b / a;
+    	let modu = a % 2;
+
+    	alert("The sum of two numbers: " + sum + "\n" + "The difference of two numbers: " + diff + "\n" + "The product of two numbers: " + prod + "\n" + "The quotient of two numbers: " + quot + "\n" + "The modulus of two numbers: " + modu + "\n");
+
+    	//variable declaration;assignment of values
+    	document.getElementById("p1").innerHTML = a + b;
+    	document.getElementById("p2").innerHTML = b - a;
+    	document.getElementById("p3").innerHTML = a * b;
+    	document.getElementById("p4").innerHTML = b / a;
+    	document.getElementById("p5").innerHTML = a % 2;
+
+    </script>
+
+
+
+</body>
+</html>
